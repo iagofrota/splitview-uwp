@@ -26,5 +26,10 @@ namespace NavigationView
         {
             this.InitializeComponent();
         }
+
+        private void BtHamgurguer_Click(object sender, RoutedEventArgs e)
+        {
+            splitview.IsPaneOpen = !splitview.IsPaneOpen;
+        }
     }
 }
